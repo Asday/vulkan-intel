@@ -1,0 +1,15 @@
+BASE_CPPFLAGS = \
+	-std=c++20 \
+	-lvulkan -ldl -lxcb \
+	-DVK_USE_PLATFORM_XCB_KHR \
+	-O3
+
+configs = debug release
+release-CPPFLAGS = -DNDEBUG
+debug-CPPFLAGS = \
+	-Wall \
+	-Werror \
+	-Wextra \
+	-Wsign-conversion \
+	-pedantic-errors \
+	-g
