@@ -1,0 +1,6 @@
+VK_INSTANCE_LEVEL_FUNCTION(vkCreateDevice)
+VK_INSTANCE_LEVEL_FUNCTION(vkDestroyInstance)
+VK_INSTANCE_LEVEL_FUNCTION(vkEnumeratePhysicalDevices)
+VK_INSTANCE_LEVEL_FUNCTION(vkGetDeviceProcAddr)
+VK_INSTANCE_LEVEL_FUNCTION(vkGetPhysicalDeviceProperties)
+VK_INSTANCE_LEVEL_FUNCTION(vkGetPhysicalDeviceQueueFamilyProperties)

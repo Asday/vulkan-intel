@@ -1,0 +1,2 @@
+VK_GLOBAL_LEVEL_FUNCTION(vkCreateInstance)
+VK_GLOBAL_LEVEL_FUNCTION(vkEnumerateInstanceVersion)
